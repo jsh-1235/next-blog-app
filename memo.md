@@ -4,9 +4,17 @@
 - npx create-next-app@latest
 - npx create-next-app@latest --typescript
 
+
+## Deploy
+
+- npm install gh-pages --save-dev
+- npm run build
+- npm run export
+
 ## Settings
 
 - next start -p 4000
+- npx next start -p 4000
 
 ## Dependency Redux
 
