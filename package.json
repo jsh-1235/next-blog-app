@@ -2,11 +2,10 @@
   "name": "next-blog-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jsh-1235.github.io/next-blog-app/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start -p 4000",
+    "build": "next build && next export",
+    "start": "next start",
     "lint": "next lint",
     "export": "next export"
   },
